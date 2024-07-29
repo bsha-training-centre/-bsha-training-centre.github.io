@@ -1,14 +1,14 @@
-<script>
-export default {
-  methods: {
-    goToAbout() {
-      this.$router.push("/about")
-    }
-  }
+<script setup lang="ts">
+import { useRouter } from "vue-router"
+
+const router = useRouter()
+
+const goToAbout = () => {
+  router.push("/about")
 }
 </script>
 
 <template>
-  <h2>HomeView</h2>
+  <h2>Home</h2>
   <button @click="goToAbout">Go to About</button>
 </template>
