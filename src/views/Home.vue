@@ -9,6 +9,6 @@ const goToAbout = () => {
 </script>
 
 <template>
-  <h2>HomeView</h2>
+  <h2>Home</h2>
   <button @click="goToAbout">Go to About</button>
 </template>
