@@ -10,10 +10,9 @@ const routes = [
   {
     path: import.meta.env.BASE_URL + "certificate",
     name: "Certificate",
-    component: () => import("./views/Certificate.vue") 
-  },
+    component: () => import("./views/Certificate.vue")
+  }
 ]
-
 
 const router: Router = createRouter({
   history: createWebHistory(),
