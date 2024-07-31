@@ -1,21 +1,17 @@
 <script setup lang="ts">
-import { computed } from "vue"
+import { computed, ComputedRef } from "vue"
 import { useRoute } from "vue-router"
 
 const route = useRoute()
 
-const name = computed({
-  get() {
-    const encodedData = route.query.userId ?? ""
-    return window.atob(encodedData)
-  }
+const name: ComputedRef<String> = computed((): String => {
+  const encodedData: string = String(route.query.userId ?? "")
+  return window.atob(encodedData)
 })
 
-const tittle = computed({
-  get() {
-    const encodedData = route.query.verificationId ?? ""
-    return window.atob(encodedData)
-  }
+const tittle: ComputedRef<String> = computed((): String => {
+  const encodedData: string = String(route.query.userId ?? "")
+  return window.atob(encodedData)
 })
 </script>
 
@@ -34,10 +30,11 @@ const tittle = computed({
         id="svg1506"
         sodipodi:docname="certificate-template.svg"
         inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
-        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:svg="http://www.w3.org/2000/svg"
+        original-url="https://pixabay.com/vectors/certificate-diploma-background-1237073/"
+        author="insspirito"
       >
         <defs id="defs1">
           <rect x="236.0858" y="219.36392" width="726.86575" height="417.89971" id="rect1" />
