@@ -10,7 +10,7 @@ const name: ComputedRef<String> = computed((): String => {
 })
 
 const tittle: ComputedRef<String> = computed((): String => {
-  const encodedData: string = String(route.query.userId ?? "")
+  const encodedData: string = String(route.query.verificationId ?? "")
   return window.atob(encodedData)
 })
 </script>
