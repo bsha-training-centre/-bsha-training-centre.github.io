@@ -6,7 +6,7 @@ const router = useRouter()
 const name = ref<string>("")
 const tittle = ref<string>("")
 
-const goToCertificate = (e) => {
+const goToCertificate = (e: Event) => {
   e.preventDefault()
   const encoded_name: string = window.btoa(name.value)
   const encoded_tittle: string = window.btoa(tittle.value)
