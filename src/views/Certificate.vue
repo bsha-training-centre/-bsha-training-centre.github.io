@@ -4723,20 +4723,20 @@ const tittle: ComputedRef<String> = computed((): String => {
           </tspan>
           <tspan x="241.38965" y="275.51367" id="tspan7">
             <tspan style="stroke: none" id="tspan6">
-              We are pleased to present this Certificate of Achievement to <tspan style="font-weight: bold" id="tspan6">
+              We are pleased to present this Certificate of Achievement to <tspan style="font-weight: bold" id="tspan42">
                 {{ name }}</tspan>, in
               recognition of
             </tspan>
           </tspan>
           <tspan x="267.11621" y="295.51367" id="tspan9">
             <tspan style="stroke: none" id="tspan8">
-              his exceptional accomplishment in attaining the rank of <tspan style="font-weight: bold" id="tspan6">{{
+              his exceptional accomplishment in attaining the rank of <tspan style="font-weight: bold" id="tspan43">{{
                 tittle }}</tspan> with the highest
             </tspan>
           </tspan>
           <tspan x="253.46387" y="315.51367" id="tspan11">
             <tspan style="stroke: none" id="tspan10">
-              honors. This prestigious title is a testament to <tspan style="font-weight: bold" id="tspan6">{{ name }}
+              honors. This prestigious title is a testament to <tspan style="font-weight: bold" id="tspan44">{{ name }}
               </tspan>'s dedication, hard work,
               and
             </tspan>
@@ -4749,8 +4749,8 @@ const tittle: ComputedRef<String> = computed((): String => {
           </tspan>
           <tspan x="267.13965" y="375.51367" id="tspan17">
             <tspan style="stroke: none" id="tspan16">
-              As a <tspan style="font-weight: bold" id="tspan6">{{ tittle }}</tspan>, <tspan style="font-weight: bold"
-                id="tspan6">{{ name }}</tspan> has demonstrated an
+              As a <tspan style="font-weight: bold" id="tspan45">{{ tittle }}</tspan>, <tspan style="font-weight: bold"
+                id="tspan46">{{ name }}</tspan> has demonstrated an
               unparalleled level of mastery and
             </tspan>
           </tspan>
@@ -4778,7 +4778,7 @@ const tittle: ComputedRef<String> = computed((): String => {
           </tspan>
           <tspan x="250.60449" y="495.51367" id="tspan29">
             <tspan style="stroke: none" id="tspan28">
-              We would like to extend our heartiest congratulations to <tspan style="font-weight: bold" id="tspan6">{{
+              We would like to extend our heartiest congratulations to <tspan style="font-weight: bold" id="tspan47">{{
                 name }}</tspan> on this remarkable
             </tspan>
           </tspan>
